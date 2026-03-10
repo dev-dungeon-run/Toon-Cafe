@@ -1,0 +1,229 @@
+body {
+      font-family: "Kalam", cursive;
+      font-weight: 700;
+      font-size: 20px;
+      color: aliceblue;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      // background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background-image-3.jpg);
+    }
+
+    .about-us-starterPage {
+      margin: 0;
+      padding: 30px;
+      height: 100vh;
+      width: 100%;
+      max-width: 2150px;
+      justify-content: center;
+    }
+
+    .about-us-banner {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 1640px;
+      height: 100vh;
+      max-height: 1000px;
+      margin-bottom: 40px;
+    }
+
+    .about-us-banner-options-grid {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0px;
+      width: 100%;
+      max-width: 500px;
+      background-color: transparent;
+      margin: 20px;
+      padding: 10px;
+    }
+
+    .grid-option {
+      position: relative;
+      overflow: visible;
+      border: none;
+      background-color: transparent;
+      padding: 0;
+      border-radius: 16px;
+      cursor: pointer;
+      aspect-ratio: 1 / 1;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .grid-option img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+      display: block;
+      filter: brightness(100%);
+    }
+
+    .menu-option-text, .show-times-option-text, .login-little-one-option-text, .home-page-option-text, .spacer-option-text {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-weight: bold;
+      font-size: 3.0rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+      pointer-events: none;
+    }
+
+    .menu-option-text {
+      font-family: "Rubik Glitch", system-ui;
+      background-color: black;
+      color: rgb(239, 212, 11);
+      padding: 10px;
+    }
+
+    .show-times-option-text {
+      font-family: "Roboto", sans-serif;
+      background-color: rgba(15, 42, 55, 0.528);
+      color: rgb(159, 100, 17);
+      transform: translate(-50%, -50%) rotate(29deg);
+      padding: 10px;
+    }
+
+    .time-option-text {
+      font-family: "Rubik Scribble", system-ui;
+      color: rgb(30, 106, 193);
+    }
+
+    .login-little-one-option-text {
+      font-family: "Knewave", system-ui;
+      background-color: rgba(0, 0, 0, 0.351);
+      border-radius: 50%;
+      color: rgb(0, 0, 0);
+      font-size: 40px;
+      padding: 0;
+    }
+
+    .spacer-option-text {
+      color: transparent;
+      text-shadow: none;
+    }
+
+    .home-page-option-text {
+      font-family: "Rampart One", sans-serif;
+      background-color: rgba(41, 50, 58, 0.387);
+      border-radius: 20px 20px 60px 60px;
+      top: 20%;
+      color: rgb(201, 190, 175);
+      font-size: 3.5rem;
+    }
+
+    .page-option-text {
+      font-family: "Knewave", system-ui;
+      font-size: 40px;
+    }
+
+    .grid-option:hover {
+      transform: scale(1.05);
+    }
+
+    .about-us-banner-img img{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex: 1;
+      border-radius: 20px;
+      height: 70vh;
+      max-height: 800px;
+      filter: brightness(100%);
+    }
+
+    .welcom-to-toon-cafe-about-us-title-container {
+      background-color: rgba(0, 0, 0, 0.539);
+      padding: 20px;
+      border-radius: 20%;
+      margin-top: 60px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .welcom-to-toon-cafe-about-us-title-container p {
+      margin: 0;
+    }
+
+    .about-us-title-inblock {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .about-us-title-inblock img {
+      height: 90px;
+      margin-left: 10px;
+    }
+
+    .welcom-to-toon-cafe {
+      font-size: 50px;
+      margin: 10px;
+    }
+
+    .where-coffee-meets-cartoons {
+      font-size: 30px;
+    }
+
+    /* Image Styles */
+    .orgin-story-container img,
+    .the-vibe-container img,
+    .what-youll-find-here-container img,
+    .say-hey-support-us-container img {
+      border-radius: 10px;
+      margin: 50px;
+      height: 40vh;
+      max-height: 500px;
+    }
+
+    /* Text containers */
+    .orgin-story-text-container,
+    .the-vibe-text-container,
+    .what-youll-find-here-text-container,
+    .say-hey-support-us-text-container {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .origin-story,
+    .the-vibe,
+    .what-youll-find-here,
+    .say-hey-support-us {
+      margin: 20px;
+      margin-bottom: 0;
+      font-size: 50px;
+    }
+
+    .orgin-story-container,
+    .the-vibe-container,
+    .what-youll-find-here-container,
+    .say-hey-support-us-container {
+      background-color: rgba(0, 0, 0, 0.539);
+      padding: 20px;
+      border-radius: 20%;
+      margin: 60px 20px 40px 40px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    ul.sticker-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul.sticker-list li {
+      margin-bottom: 10px;
+    }
