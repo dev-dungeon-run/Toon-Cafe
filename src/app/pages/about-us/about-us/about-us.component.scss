@@ -1,24 +1,14 @@
-body {
-      font-family: "Kalam", cursive;
-      font-weight: 700;
-      font-size: 20px;
-      color: aliceblue;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: black;
-      // background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background-image-3.jpg);
-    }
 
     .about-us-starterPage {
       margin: 0;
       padding: 30px;
-      height: 100vh;
+      height: 100%;
       width: 100%;
       max-width: 2150px;
       justify-content: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../../../assets/images/about-us-n-shared/city-background.png);
+    //   background-size: cover;
+    //   background-position: center;
     }
 
     .about-us-banner {
@@ -141,6 +131,9 @@ body {
       filter: brightness(100%);
     }
 
+
+    
+
     .welcom-to-toon-cafe-about-us-title-container {
       background-color: rgba(0, 0, 0, 0.539);
       padding: 20px;
@@ -196,6 +189,7 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      max-width: 1500px;
     }
 
     .origin-story,

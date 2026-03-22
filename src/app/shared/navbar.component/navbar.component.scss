@@ -1,0 +1,50 @@
+/* Make navbar full width, transparent, and clean */
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: transparent;
+  
+}
+
+.navbar {
+  width: 100%;
+  background: transparent;
+}
+
+/* Evenly space items across */
+.navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background: #b966d4;
+}
+
+/* Make text bigger and nicer */
+.nav-link {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255); 
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  color: #b966d4 !important; 
+}
+
+/* Remove weird bootstrap bg on dropdown */
+.dropdown-menu {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 8px;
+}
+
+/* Optional: make brand icon a bit bigger */
+.navbar-brand svg {
+  width: 70px;
+  height: auto;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}

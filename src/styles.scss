@@ -1,13 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
-body {
-  font-family: "Kalam", cursive;
-  font-weight: 700;
-  font-size: 20px;
-  color: aliceblue;
+
+
+.container-fluid-full {
   margin: 0;
-  padding: 0;
-  display: flex;
+  padding: 30px;
+  height: 100vh;
+  width: 100%;
+  max-width: 2150px;
   justify-content: center;
-  align-items: center;
-  background-color: black;
 }
